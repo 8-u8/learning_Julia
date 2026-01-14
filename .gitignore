@@ -2,7 +2,10 @@
 # .github
 # Julia関連
 Manifest.toml
+Project.toml
 *.jl.*.cov
 *.jl.cov
 *.jl.mem
+
+
 deps/deps.jl
