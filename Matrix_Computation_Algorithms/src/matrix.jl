@@ -27,4 +27,10 @@ println("x = ") ; display(x)
 println("A = ") ; display(A)
 
 display(diag(A))
+
+# %% matrix transpose
+
+At = A'
+println("A' = ") ; display(At)
+
 end
