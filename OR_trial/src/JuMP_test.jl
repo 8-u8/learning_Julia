@@ -1,3 +1,4 @@
+module OR_trial
 # from: https://jump.dev/JuMP.jl/stable/tutorials/linear/diet/
 # 食事問題を解く。
 using JuMP
@@ -54,3 +55,5 @@ solution_summary(model)
 for row in eachrow(foods)
     println(row.name, "=", value(row.x))
 end
+
+end 
